@@ -1,7 +1,7 @@
 import qrcode
 from PIL import Image, ImageDraw, ImageOps
 import os
-from config import DATA, QR_CODE_FILE, LOGO_PATH
+from config.config import DATA, QR_CODE_FILE, LOGO_PATH
 
 # Crea la cartella di output se non esiste
 os.makedirs("output", exist_ok=True)
